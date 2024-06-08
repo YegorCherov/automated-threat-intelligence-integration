@@ -16,10 +16,10 @@ This PowerShell script provides an automated solution for integrating threat int
 ```
 git clone https://github.com/Rozcy/automated-threat-intelligence-integration.git
 ```
-2. Open the PowerShell script file (`Invoke-ThreatIntelligenceIntegration.ps1`) and update the API keys for VirusTotal, OTX, and any other threat intelligence providers you'd like to use.
+2. Open the PowerShell script file (`ThreatIntelligenceIntegration.ps1`) and update the API keys for VirusTotal, OTX, and any other threat intelligence providers you'd like to use.
 3. Run the script:
 ```powershell
-.\Invoke-ThreatIntelligenceIntegration.ps1
+.\ThreatIntelligenceIntegration.ps1
 ```
 4. The script will continuously monitor the system for threats, retrieving the latest intelligence and performing mitigation actions as needed.
 
